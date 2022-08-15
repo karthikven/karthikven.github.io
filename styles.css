@@ -47,7 +47,6 @@
 
 #navbar__logo span {
 	background-color: #ffff;
-	font-style: italic;
 	/*background-image: linear-gradient(to top, #aed6f1 0%, #d35400 100%);*/
 	font-family:'Poppins';
 	background-size: 100%;
@@ -59,9 +58,9 @@
 	align-items: left;
 	cursor: pointer;
 	text-decoration: none;
-	font-size: 0.60rem;
+	font-size: 0.7rem;
 	position: relative; 
-	top: 30px;
+	top: 28px;
 	left: -170px;
 	color: #ffff;
 	
@@ -168,6 +167,7 @@
 
 	.navbar__item {
 		width: 100%;
+		font-size: 20px;
 	}
 
 	.navbar__links {
@@ -178,7 +178,8 @@
 	}
 
 	.navbar__btn {
-		padding-bottom: 2rem;
+		padding: 1rem;
+		font-size: 20px;
 	}
 
 	.button {
@@ -220,7 +221,7 @@
 .hero {
 	background: #000000;
 	background: linear-gradient(to right, #161616, #000000);
-	padding: 100px 0;
+	padding: 7.5% 0% 7.5% 0%;
 	background-image: url("./img/scifi-skyline.jpeg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -232,22 +233,25 @@
 	flex-direction: column;
 	justify-content: left;
 	align-items: center;
-	max-width: 1000px;
+	/*max-width: 1000px;*/
 	margin: 0 100px;
 	height: 90%;
 	text-align: left;
-	padding: 10px;
-	margin-left: 225px;
+	/*padding: 10px;*/
+	/*margin-left: 225px;*/
 	position: relative;
 }
 
 .hero__heading {
 	font-size: 53px;
-	margin-bottom: 24px;
+	width: 80%;
+	/*margin-bottom: 24px;*/
 	/*color: #c6b29d;*/
 	color: #ffff;
 }
 
+
+/*
 
 .hero__heading span {
 	background: #d35400;
@@ -268,6 +272,7 @@
 	-webkit-text-fill-color: transparent;
 	-mo-text-fill-color: transparent;
 }
+*/
 
 .hero__description {
 	font-size: 27px;
@@ -287,41 +292,46 @@
 	-moz-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
+
+	width: 80%;
 	margin-bottom: 24px;
 }
 
-.hero__img {
-	height: 300px;
-	position: absolute;
-  	top: 100px;
-  	left: 900px;
-	padding: 30px 0px 10px 0px;
-
-}
-.hero__img2 {
-	height: 300px;
-	width: 410px;
-	position: absolute;
-  	top: 380px;
-  	left: 900px;
-	padding: 30px 0px 10px 0px;
-
-}
 
 .highlight {
 	border: 1px solid #ea5c2b;
 	border-radius: 4px;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 800px) {
+	.hero__container {
+		margin: 7.5% 5% 7.5% 5%;
+		height: 100%;
+
+	}
 	.hero__heading {
-		font-size: 60px;
+		width: 100%;
+		align-items: left;
+		text-align: left;
+		margin-bottom: 5%;
+		font-size: 35px;
 	}
 
 	.hero__description {
-		font-size: 40px;
+		width: 100%;
+		align-items: left;
+		text-align: left;
+		font-size: 20px;
+		line-height: 1.5em;
 	}
+
+	/*.main__btn {
+		margin: auto;
+		padding: auto;
+	}*/
 }
+
 
 
 /* About Section */
@@ -362,8 +372,9 @@
 	align-items: center;
 	justify-content: center;
 	padding: 5px;
-	width: 500px;
-	margin:5px;
+	/*width: 500px;*/
+	width: 40%;
+	/*margin:5px;*/
 }
 
 .main-content-mission-box h2 {
@@ -378,15 +389,16 @@
 }
 
 .main-content-mission-statement {
-
 	display:block;
 	align-items: center;
 	justify-content: center;
 	/*padding: 5px;*/
 	padding-left: 150px;
 	width: 50%;
-	margin:5px;
-	/*position: relative;
+	/*margin:5px;*/
+	margin: auto;
+	position: relative;
+	/*
 	top: -225px;
 	left: 650px;*/
 }	
@@ -497,17 +509,38 @@
 
 }
 
-@media screen and (max-width: 1300px) {
-	.main__container {
-		grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 800px) {
+
+	.main__content {
+		display: block;
+		
+	}
+
+	.main-content-mission-box {
+		font-size: 15px;
+		width: 100%;
+	}
+
+
+	.main-content-mission-statement {
+		align-items: left;
+		text-align: left;
+		font-size: 8px;
+		margin-left: 0;
+		padding: 0;
+		width: 100%;
+		line-height: 3em;
+
 	}
 }
 
+/*
 @media screen and (max-width: 768px) {
 	.main__container {
 		grid-template-columns: 1fr;
 	}
 }
+*/
 
 
 /* features section */
@@ -564,6 +597,27 @@
   	background-size: 1.6rem 1.6rem;
   	background-repeat: no-repeat;
 }
+
+
+@media screen and (max-width: 800px) {
+	.things-you-can-do {
+		width: 90%
+	}
+
+	.features h1{
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.things-you-can-do h1 {
+		font-size: 500px;
+	}
+
+	.features-coming-soon {
+		width: 90%
+	}
+}
+
 
 /* product section */
 
@@ -799,7 +853,7 @@
 
 .website__rights {
 	color: #ffff;
-	padding-left: 340px;
+	text-align: center;
 }
 
 @media screen and (max-width: 820px) {
@@ -822,5 +876,11 @@
 		margin: 0;
 		padding: 10px;
 		width: 100%;
+	}
+
+	.website__rights {
+		margin: auto;
+		padding: auto;
+		text-align: center;
 	}
 }
