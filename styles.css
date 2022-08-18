@@ -234,12 +234,13 @@
 	/*justify-content: left;*/
 	align-items: center;
 	/*max-width: 1000px;*/
-	margin: 0 100px;
+	margin: auto;
 	height: 90%;
 	/*text-align: left;*/
 	/*padding: 10px;*/
 	/*margin-left: 225px;*/
 	position: relative;
+	max-width: 1300px;
 }
 
 .hero__heading {
