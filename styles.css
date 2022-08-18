@@ -523,25 +523,42 @@
 
 @media screen and (max-width: 800px) {
 
+	.main {
+		background-color: #131313;
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+
 	.main__content {
 		display: block;
+		padding: 7.5% 5% 7.5% 5%;
+		
 		
 	}
 
 	.main-content-mission-box {
-		font-size: 15px;
 		width: 100%;
+		margin: auto;
+		padding: auto;
+	}
+
+	.main-content-mission-box h1 {
+		margin: 5% auto 5% 2.5%;
+	}
+
+	.main-content-mission-box h2 {
+		margin: 5% auto 5% 2.5%;
 	}
 
 
 	.main-content-mission-statement {
-		align-items: left;
-		text-align: left;
+
 		font-size: 8px;
-		margin-left: 0;
+		margin: auto auto auto 2.5%;
 		padding: 0;
 		width: 100%;
-		line-height: 3em;
+		line-height: 4em;
 
 	}
 }

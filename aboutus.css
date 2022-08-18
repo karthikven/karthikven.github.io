@@ -267,6 +267,11 @@
 
 
 @media screen and (max-width: 800px) {
+	.aboutus1 {
+		margin: 0;
+		padding: 0;
+	}
+
 	.about-us-description {
 		padding: 0 0 0 0;
 		width: 100%
@@ -365,6 +370,11 @@
 }
 
 @media screen and (max-width: 1300px) {
+
+	.aboutus2 {
+		margin: 0;
+		padding: 0;
+	}
 
 	.team {
 		padding: 0 0 0 0;
