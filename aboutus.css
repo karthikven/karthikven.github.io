@@ -47,7 +47,6 @@
 
 #navbar__logo span {
 	background-color: #ffff;
-	font-style: italic;
 	/*background-image: linear-gradient(to top, #aed6f1 0%, #d35400 100%);*/
 	font-family:'Poppins';
 	background-size: 100%;
@@ -227,6 +226,13 @@
 	border-radius: 4px;
 }
 
+/* 1st section of about us */
+
+.aboutus1 {
+	background-color: #131313;
+	padding: 2.5rem 2.5rem;
+}
+
 .about-us-description {
 	background-color: #131313;
 	padding: 5rem 5rem;
@@ -238,7 +244,7 @@
 	height: 100%;
 	z-index: 1;
 	width: 100%;
-	/*max-width: 1300px;*/
+	max-width: 1300px;
 	padding: 5rem 5rem;
 	/*margin-bottom: 20px;*/
 
@@ -286,6 +292,12 @@
 	}
 }
 
+/* 2nd section of about us */
+
+.aboutus2 {
+	background-color: #131313;
+	padding: 5rem 5rem;
+}
 
 .team {
 	background-color: #131313;
@@ -298,7 +310,7 @@
 	height: 100%;
 	z-index: 1;
 	width: 100%;
-	/*max-width: 1300px;*/
+	max-width: 1300px;
 	padding: 5rem 5rem;
 	/*margin-bottom: 20px;*/
 }
