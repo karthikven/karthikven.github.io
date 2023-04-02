@@ -347,8 +347,9 @@
 
 .team__img {
 	height: 300px;
+	width: 200px;
 	padding: 30px 0px 10px 0px;
-	border-radius: 50%;
+	border-radius: 0%;
 }
 
 .team__name {
